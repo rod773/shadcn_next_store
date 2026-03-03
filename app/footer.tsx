@@ -73,7 +73,7 @@ export function Footer() {
 					{/* Brand */}
 					<div className="sm:max-w-xs">
 						<YnsLink prefetch={"eager"} href="/" className="text-xl font-bold text-foreground">
-							Your Next Store
+							Shadcn Next Store
 						</YnsLink>
 						<p className="mt-4 text-sm text-muted-foreground leading-relaxed">
 							Curated essentials for modern living. Quality products, thoughtfully designed.
