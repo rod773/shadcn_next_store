@@ -36,7 +36,7 @@ export default function CheckoutPage() {
 	return (
 		<main className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-8">
 			<header className="space-y-2">
-				<h1 className="text-3xl font-semibold tracking-tight">Checkout (Redux Only)</h1>
+				<h1 className="text-3xl font-semibold tracking-tight">Checkout</h1>
 				<p className="text-muted-foreground">
 					Review your cart items and totals. This demo uses Redux without React hooks.
 				</p>
@@ -129,7 +129,7 @@ export default function CheckoutPage() {
 
 			<section className="space-y-3">
 				<Button className="w-full h-11" onClick={handleCheckout} disabled={items.length === 0}>
-					{items.length === 0 ? "Add items to cart" : "Place order (Redux only)"}
+					{items.length === 0 ? "Add items to cart" : "Place order"}
 				</Button>
 				<p className="text-xs text-muted-foreground text-center">
 					To enable real checkout, connect Your Next Store and integrate a payment provider using the Commerce

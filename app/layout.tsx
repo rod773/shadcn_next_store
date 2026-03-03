@@ -27,7 +27,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "Your Next Store",
+	title: "Shadcn Next Store",
 	description: "Your next e-commerce store",
 };
 
@@ -62,7 +62,7 @@ async function CartProviderWrapper({ children }: { children: React.ReactNode }) 
 						<div className="flex items-center justify-between h-16">
 							<div className="flex items-center gap-8">
 								<YnsLink prefetch={"eager"} href="/" className="text-xl font-bold">
-									Your Next Store
+									Shadcn Next Store
 								</YnsLink>
 								<Navbar />
 							</div>

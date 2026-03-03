@@ -40,7 +40,7 @@ export default function CartPage() {
 	return (
 		<main className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-8">
 			<header className="space-y-2">
-				<h1 className="text-3xl font-semibold tracking-tight">Shopping Cart (Redux Only)</h1>
+				<h1 className="text-3xl font-semibold tracking-tight">Shopping Cart</h1>
 				<p className="text-muted-foreground">Manage your cart items and proceed to checkout.</p>
 			</header>
 
